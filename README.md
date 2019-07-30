@@ -4,10 +4,19 @@
   PWM significa "Pulse Width Modulation" ou Modulação de Largura de Pulso, ou seja, através da largura do pulso de uma onda quadrada é possível o controle de potência ou, no nosso caso, velocidade do motor de corrente contínua.
   
   ![](pwm.gif)
-# Sumário 
 
 # Pré-Requisitos:
-  Para reproduzir o projeto deste post, você precisará de: um Arduino UNO (com cabo USB para programação), um Driver Motor Ponte H L298n, um Motor DC 3-6V com Caixa de Redução e Eixo Duplo, uma Fonte DC Chaveada 9V 1A Plug P4, jumpers (macho-fêmea e macho-macho).
+  Para reproduzir o projeto deste post, você precisará de:
+  
+  Um Arduino UNO (com cabo USB para programação);
+  
+  Um Driver Motor Ponte H L298n;
+  
+  Um Motor DC 3-6V com Caixa de Redução e Eixo Duplo;
+  
+  Uma Fonte DC Chaveada 9V 1A Plug P4;
+  
+  Jumpers (macho-fêmea e macho-macho).
   
 # PWM no Arduíno
 No caso dos motores DC, a “velocidade de giro” (RPM) pode ser controlada variando-se sua tensão de alimentação. Além disso, o RPM é diretamente proporcional à tensão aplicada. Portanto, variando-se a tensão média de alimentação do motor, varia-se o RPM do mesmo.
